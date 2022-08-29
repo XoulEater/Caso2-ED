@@ -15,6 +15,7 @@ class Room
         string nameR;
         List<Dispositivo>* dispositivos = new List<Dispositivo>(); 
     public:
+        // Constructor
         Room(int ProomID, string PnameR, List<Dispositivo>* Pdispositivos){
             this->roomID = ProomID;
             this->nameR = PnameR;
